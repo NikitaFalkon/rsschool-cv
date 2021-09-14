@@ -10,6 +10,7 @@
 ## **Some words about myself**
 Highly motivated junior developer with experience in creating web applications. I have a good soft skills and wishing to discover something new.
 Also i have internship experience in IT (not so positive, but i don't give up). And i have a parrot, i don't know why i'm telling you about that but i think it's very important information.
+
 ## **Skils**
 * Java, Spring(SpringMVC, SpringBoot, SpringSecurity...), Maven
 * Html, CSS, Thymeleaf
@@ -43,5 +44,8 @@ Also i have internship experience in IT (not so positive, but i don't give up). 
     return high + " " + low;
 }
 ```
+## **Education**
+Student, Yanka Kupala State University of Grodno (Faculty of Mathematics and Informatics)
+
 ## **English level**
-B1-B2(i attended English courses during this summer and have some practise in communication with native speakers)
+B1-B2 (I attended English courses during this summer and have some practise in communication with native speakers)
