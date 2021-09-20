@@ -46,6 +46,7 @@ Also i have internship experience in IT (not so positive, but i don't give up). 
 ```
 ## **Education**
 Student, Yanka Kupala State University of Grodno (Faculty of Mathematics and Informatics)
+2018-present
 
 ## **English level**
 B1-B2 (I attended English courses during this summer and have some practise in communication with native speakers)
