@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>margin</title>
+  <style>
+
+  </style>
+ </head> 
+ <body>
+ <div class="parent">
+     <header>
+         <div class="left_block">
+             <figure><img src="images/papug.png"  class="round" alt="Here should be a parrot"></figure>
+         </div>
+         <div class="right_block">
+             <h1>Nikita Sokolovsky</h1>
+             <h2>Junior Developer</h2>
+         </div>
+     </header>
+     <div class="line">
+     </div>
+     <main>
+         <div class="left_block">
+             <h3>Social:</h3>
+             <section class="contacts">
+                 <ul>
+                     <li>
+                         <img src="images/discord.png" height="40px" width="40px">
+                         <p>NikaS</p>
+                     </li>
+                     <li>
+                         <img src="images/mail.png" height="40px" width="40px">
+                         <p>Mikita.falcon@gmail.com</p>
+                     </li>
+                     <li>
+                         <img src="images/github.png" height="40px" width="40px">
+                         <a href="https://github.com/NikitaFalkon">NikitaFalkon</a>
+                     </li>
+                    <li>
+                        <img src="images/gmaps.png" alt="Location" width="40" height="40">
+                        <p>Location: Grodno, Belarus</p>
+                    </li>
+                 </ul>
+             </section>
+             <section class="languages">
+                 <h3>Languages:</h3>
+                 <ul>
+                     <li>
+                         <p class="language-name">English</p>
+                         <p>Intermediate</p>
+                     </li>
+                     <li>
+                         <p class="language-name">Russian</p>
+                         <p>Native</p>
+                     </li>
+                     <li>
+                         <p class="language-name">Belorussian</p>
+                         <p>Native</p>
+                     </li>
+                 </ul>
+             </section>
+         </div>
+         <div class="right_block">
+             <h3>About myself:</h3>
+             <p class="h">I'm highly motivated junior developer with experience in creating web applications.
+                 I have a good soft skills and wish to discover new things.
+                 Also i have internship experience in IT (not so positive, but i don't give up).
+                 And i have a parrot, i don't know why i'm telling you about him but i think it's very important information.</p>
+             <hr/>
+             <h3>My code:</h3>
+             <div class ="code">
+                 <pre><code class="html">
+  let high = parseInt(numbers);
+  let low = parseInt(numbers);
+  let str = '';
+
+  for(let i = 0; i < numbers.length; i++) {
+     if(numbers[i] !== " ") {
+          let h = numbers[i];
+          str = str + h;
+          }
+
+     if(numbers[i] == " " || i+1 == numbers.length) {
+         if(low > parseInt(str)) low = parseInt(str);
+
+          if(high < parseInt(str)) high = parseInt(str);
+
+          str = ''
+      }
+
+      return high + " " + low;
+  }
+                 </code></pre>
+             </div>
+             <h3>My skills:</h3>
+             <table class="skills">
+                 <tr>
+                     <th><p class="h">Java, Spring, Maven (75%)</p></th>
+                     <th><p class="h">Html, CSS, Thymeleaf (25%)</p></th>
+                     <th><p class="h">SQL, MySQL, Hybernate (50%)</p></th>
+                 </tr>
+                 <tr>
+                     <td align = "center"><div class="one"></div></td>
+                     <td align = "center"><div class="three"></div></td>
+                     <td align = "center"><div class="two"></div></td>
+                 </tr>
+                 <tr>
+                     <th><p class="h">JaxB, W3C, Jasper (75%)</p></th>
+                     <th><p class="h">VS Code, IntelliJ IDEA (75%)</p></th>
+                     <th><p class="h">JavaScript (25%)</p></th>
+                 </tr>
+                 <tr>
+                     <td align = "center"><div class="one"></div></td>
+                     <td align = "center"><div class="one"></div></td>
+                     <td align = "center"><div class="three"></div></td>
+                 </tr>
+             </table>
+         </div>
+     </main>
+     <footer></footer>
+ </div>
+ </body>
+</html>
