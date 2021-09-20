@@ -134,7 +134,7 @@ figure {
     flex-basis: 73%;
     padding: 1%;
     background: #f1f1ef;
-    min-width: 58%;
+    min-width: 50%;
 }
 .code {
     background-color: #ffff;
@@ -142,7 +142,6 @@ figure {
     padding: 0.6%;
     margin-top: 2px;
     min-width: 50%;
-    /*flex-shrink: 2;*/
 }
 .code p {
     display: block;
@@ -207,8 +206,12 @@ hr {
 }
 
 
-
-@media (max-width: 700px) {
+@media (max-width: 750px) {
+    .code {
+         font-size: 80%;
+    }
+}
+@media (max-width: 720px) {
     figure {
         width: 220px;
         height: 220px;
@@ -230,17 +233,12 @@ hr {
     }
 }
 @media (max-width: 500px) {
-
-    .code pre {
-        font-size: 0.5em;
-    }
     .tabled {
         border-spacing: 10px 3px;
     }
     .thd {
         font-size: 10px;
         padding: 5px;
-        /*display: flex;*/
     }
     .tdd {
         background: #F5D7BF;
