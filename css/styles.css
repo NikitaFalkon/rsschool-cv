@@ -159,63 +159,53 @@ hr {
     margin-top: 1%;
     margin-bottom: 1%;
 }
+.skills li {
+    list-style-type: none;
+    display: inline;
+    padding: 2px;
+}
+
+.skills li div {
+    vertical-align: middle;
+    margin-right: 5px;
+    display: flex; 
+    flex-direction: row;     
+    align-items:center;
+}
+
+.skills li h4 {
+    font-size: 1.4em;
+    display: inline;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
 .one {
-    background: #ECF5E4;
-    width: 70px; height: 70px;
-    min-width: 40px; min-height: 40px;
+    width: 23px; height: 23px;
     font-size: 0px;
-    border: 30px solid #6c8cd5;
-    border-right: 30px solid #D0E6BB;
-    border-radius: 100px;
+    border: 27px solid #6c8cd5;
+    border-right: 27px solid #D0E6BB;
+    border-radius: 50%;
     display: flex;
 }
-.two {
-    background: #ECF5E4;
-    width: 70px; height: 70px;
-    min-width: 40px; min-height: 40px;
+    .two {
+    width: 23px; height: 23px;
     font-size: 0px;
-    border: 30px solid #6c8cd5;
-    border-right: 30px solid #D0E6BB;
-    border-bottom: 30px solid #D0E6BB;
-    border-radius: 100px;
+    border: 27px solid #6c8cd5;
+    border-top: 27px solid #d0e6bb;
+    border-right: 27px solid #d0e6bb;
+    border-bottom: 27px solid #D0E6BB;
+    border-radius: 50%;
     display: flex;
 }
 .three {
-    background: #ECF5E4;
-    width: 70px; height: 70px;
-    min-width: 40px; min-height: 40px;
+    width: 23px; height: 23px;
     font-size: 0px;
-    border: 30px solid #6c8cd5;
-    border-right: 30px solid #D0E6BB;
-    border-top: 30px solid #D0E6BB;
-    border-bottom: 30px solid #D0E6BB;
-    border-radius: 100px;
+    border: 27px solid #6c8cd5;
+    border-right: 27px solid #D0E6BB;
+    border-top: 27px solid #D0E6BB;
+    border-radius: 50%;
     display: flex;
 }
 
-/*Table with skills*/
-.skills {
-    border-spacing: 13px 4px;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-    text-align: center;
-    border-collapse: separate;
-    border-spacing: 5px;
-    background: #f1f1f1;
-    border: 10px solid #f1f1f1;
-    min-width: 40%;
-    display:flex;
-    flex-shrink: 2;
-
-}
-.skills th {
-    font-size: 14px;
-    padding: 7px;
-    /*display: flex;*/
-}
-.skills td {
-    background: #F5D7BF;
-    padding: 7px;
-}
 
 
 @media (max-width: 700px) {
@@ -257,33 +247,6 @@ hr {
         padding: 5px;
     }
     /*Diagram*/
-    .one {
-        width: 30px; height: 30px;
-        font-size: 0px;
-        border: 20px solid #6c8cd5;
-        border-right: 20px solid #D0E6BB;
-        border-radius: 100px;
-        display: flex;
-    }
-    .two {
-        width: 30px; height: 30px;
-        font-size: 0px;
-        border: 20px solid #6c8cd5;
-        border-top: 25px solid #d0e6bb;
-        border-right: 25px solid #d0e6bb;
-        border-bottom: 20px solid #D0E6BB;
-        border-radius: 100px;
-        display: flex;
-    }
-    .three {
-        width: 30px; height: 30px;
-        font-size: 0px;
-        border: 20px solid #6c8cd5;
-        border-right: 20px solid #D0E6BB;
-        border-top: 20px solid #D0E6BB;
-        border-radius: 100px;
-        display: flex;
-    }
     h1 {
         font-size: 1.4em;
         margin: 0.5em 0;

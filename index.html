@@ -27,24 +27,24 @@
              <section class="contacts">
                  <ul>
                      <li>
-                         <img src="images/discord.png" height="40px" width="40px">
+                         <img src="images/discord.png" height="40" width="40" alt="Discord:">
                          <p>NikaS</p>
                      </li>
                      <li>
-                         <img src="images/mail.png" height="40px" width="40px">
+                         <img src="images/mail.png" height="40" width="40" alt="Gmail:">
                          <p>Mikita.falcon@gmail.com</p>
                      </li>
                      <li>
-                         <img src="images/github.png" height="40px" width="40px">
+                         <img src="images/github.png" height="40" width="40" alt="Github:">
                          <a href="https://github.com/NikitaFalkon">NikitaFalkon</a>
                      </li>
                     <li>
-                        <img src="images/gmaps.png" alt="Location" width="40" height="40">
+                        <img src="images/gmaps.png" alt="Location" width="40" height="40" alt="Location:">
                         <p>Location: Grodno, Belarus</p>
                     </li>
                  </ul>
              </section>
-             <section class="languages">
+             <article class="languages">
                  <h3>Languages:</h3>
                  <ul>
                      <li>
@@ -60,7 +60,8 @@
                          <p>Native</p>
                      </li>
                  </ul>
-             </section>
+             </article>
+
          </div>
          <div class="right_block">
              <h3>About myself:</h3>
@@ -76,7 +77,7 @@
   let low = parseInt(numbers);
   let str = '';
 
-  for(let i = 0; i < numbers.length; i++) {
+  for(let i = 0; i <&lt;numbers.length; i++) {
      if(numbers[i] !== " ") {
           let h = numbers[i];
           str = str + h;
@@ -85,7 +86,7 @@
      if(numbers[i] == " " || i+1 == numbers.length) {
          if(low > parseInt(str)) low = parseInt(str);
 
-          if(high < parseInt(str)) high = parseInt(str);
+          if(high <&lt;parseInt(str)) high = parseInt(str);
 
           str = ''
       }
@@ -94,29 +95,48 @@
   }
                  </code></pre>
              </div>
-             <h3>My skills:</h3>
-             <table class="skills">
-                 <tr>
-                     <th><p class="h">Java, Spring, Maven (75%)</p></th>
-                     <th><p class="h">Html, CSS, Thymeleaf (25%)</p></th>
-                     <th><p class="h">SQL, MySQL, Hybernate (50%)</p></th>
-                 </tr>
-                 <tr>
-                     <td align = "center"><div class="one"></div></td>
-                     <td align = "center"><div class="three"></div></td>
-                     <td align = "center"><div class="two"></div></td>
-                 </tr>
-                 <tr>
-                     <th><p class="h">JaxB, W3C, Jasper (75%)</p></th>
-                     <th><p class="h">VS Code, IntelliJ IDEA (75%)</p></th>
-                     <th><p class="h">JavaScript (25%)</p></th>
-                 </tr>
-                 <tr>
-                     <td align = "center"><div class="one"></div></td>
-                     <td align = "center"><div class="one"></div></td>
-                     <td align = "center"><div class="three"></div></td>
-                 </tr>
-             </table>
+             
+             <section class="skills">
+                <h3>My skills:</h3>
+                 <ul>
+                     <li>
+                        <div>
+                            <div class="one"></div>
+                            <h4>Java, Spring, Maven</h4>
+                        </div>
+                     </li>
+                     <li>
+                        <div>
+                            <div class="three"></div>
+                            <h4>Html, CSS, Thymeleaf</h4>
+                        </div>
+                     </li>
+                     <li>
+                        <div>
+                            <div class="three"></div>
+                            <h4>SQL, MySQL, Hybernate</h4>
+                        </div>
+                     </li>
+                     <li>
+                        <div>
+                            <div class="one"></div>
+                            <h4>JaxB, W3C, Jasper</h4>
+                        </div>
+                     </li>
+                     <li>
+                        <div>
+                            <div class="one"></div>
+                            <h4>VS Code, IntelliJ IDEA</h4>
+                        </div>
+                     </li>
+                     <li>
+                        <div>
+                            <div class="two"></div>
+                            <h4>JavaScript</h4>
+                        </div>
+                     </li>
+                 </ul>
+             </section>
          </div>
      </main>
      <footer></footer>
