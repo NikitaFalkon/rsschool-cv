@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
  <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/styles.css">
-  <title>margin</title>
+  <title>Nikita Sokolovsky CV</title>
   <style>
 
   </style>
@@ -23,8 +23,8 @@
      </div>
      <main>
          <div class="left_block">
-             <h3>Social:</h3>
              <section class="contacts">
+                <h3>Social:</h3>
                  <ul>
                      <li>
                          <img src="images/discord.png" height="40" width="40" alt="Discord:">
@@ -39,7 +39,7 @@
                          <a href="https://github.com/NikitaFalkon">NikitaFalkon</a>
                      </li>
                     <li>
-                        <img src="images/gmaps.png" alt="Location" width="40" height="40" alt="Location:">
+                        <img src="images/gmaps.png" width="40" height="40" alt="Location:">
                         <p>Location: Grodno, Belarus</p>
                     </li>
                  </ul>
@@ -72,27 +72,27 @@
              <hr/>
              <h3>My code:</h3>
              <div class ="code">
-                 <pre><code class="html">
-  let high = parseInt(numbers);
-  let low = parseInt(numbers);
-  let str = '';
+                 <pre><code class="scrp">
+ let high = parseInt(numbers);
+ let low = parseInt(numbers);
+ let str = '';
 
-  for(let i = 0; i <&lt;numbers.length; i++) {
-     if(numbers[i] !== " ") {
-          let h = numbers[i];
-          str = str + h;
-          }
+ for(let i = 0; i &lt; numbers.length; i++) {
+    if(numbers[i] !== " ") {
+         let h = numbers[i];
+         str = str + h;
+         }
 
-     if(numbers[i] == " " || i+1 == numbers.length) {
-         if(low > parseInt(str)) low = parseInt(str);
+    if(numbers[i] == " " || i+1 == numbers.length) {
+        if(low > parseInt(str)) low = parseInt(str);
 
-          if(high <&lt;parseInt(str)) high = parseInt(str);
+        if(high &lt; parseInt(str)) high = parseInt(str);
 
-          str = ''
-      }
+        str = ''
+    }
 
-      return high + " " + low;
-  }
+    return high + " " + low;
+ }
                  </code></pre>
              </div>
              
